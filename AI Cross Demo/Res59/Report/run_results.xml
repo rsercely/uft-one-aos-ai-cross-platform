@@ -1,0 +1,406 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Iteration">
+<ReportNode type="Action">
+<ReportNode type="Step">
+<Data>
+    <Name>[ App ].Launch</Name>
+    <Description>2, 2</Description>
+    <StartTime>2020-06-08 06:56:45</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Device</Type>
+            <Name><![CDATA[[ Device ]]]></Name>
+          </Object>
+          <Object>
+            <Type>App</Type>
+            <Name><![CDATA[[ App ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Launch</Operation>
+        <OperationData><![CDATA[2, 2]]></OperationData>
+      </TestObject>
+      <IconKey>80909c5e6ae94a77b1859f9e7e870d37</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\3cb676c4-a651-433f-a029-ffde3ddae2c1.jpeg" />
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>AIUtil.SetContext</Name>
+    <Description>Set context Device("(null)") for AIUtil</Description>
+    <StartTime>2020-06-08 06:56:46</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>05ec3ef8bd474a858feb94e0ca7a2b7a</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>AIUtil("hamburger_menu").Exist</Name>
+    <Description>Object exists</Description>
+    <StartTime>2020-06-08 06:56:49</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <Tooltip>AIUtil("hamburger_menu")</Tooltip>
+      <AIInfo>
+        <AIMatchScore>99.29</AIMatchScore>
+      </AIInfo>
+      <TestObject>
+        <Path>
+          <Object>
+            <Type>Device</Type>
+            <Name><![CDATA[[ Device ]]]></Name>
+          </Object>
+          <Object>
+            <Type>AIObject</Type>
+            <Name><![CDATA[AIUtil("hamburger_menu")]]></Name>
+          </Object>
+        </Path>
+        <Operation>Exist</Operation>
+        <OperationData><![CDATA[Object exists]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[class]]></Name>
+            <Value><![CDATA[hamburger_menu]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>11ce6b7eb077409a9de322861e047d1b</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\61423ad8-0e3f-4548-8bba-9b5224b35ad3.jpeg" highlight="8,45,53,36" />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>AIUtil("hamburger_menu").Click</Name>
+    <Description />
+    <StartTime>2020-06-08 06:57:05</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <Tooltip>AIUtil("hamburger_menu")</Tooltip>
+      <AIInfo>
+        <AIMatchScore>98.36</AIMatchScore>
+      </AIInfo>
+      <TestObject>
+        <Path>
+          <Object>
+            <Type>Device</Type>
+            <Name><![CDATA[[ Device ]]]></Name>
+          </Object>
+          <Object>
+            <Type>AIObject</Type>
+            <Name><![CDATA[AIUtil("hamburger_menu")]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[class]]></Name>
+            <Value><![CDATA[hamburger_menu]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>11ce6b7eb077409a9de322861e047d1b</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\70e8b70e-04fb-4415-af28-55617825b445.jpeg" highlight="8,44,53,39" />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>AIUtil("profile").Click</Name>
+    <Description />
+    <StartTime>2020-06-08 06:57:08</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <Tooltip>AIUtil("profile")</Tooltip>
+      <AIInfo>
+        <AIMatchScore>44.72</AIMatchScore>
+      </AIInfo>
+      <TestObject>
+        <Path>
+          <Object>
+            <Type>Device</Type>
+            <Name><![CDATA[[ Device ]]]></Name>
+          </Object>
+          <Object>
+            <Type>AIObject</Type>
+            <Name><![CDATA[AIUtil("profile")]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[class]]></Name>
+            <Value><![CDATA[profile]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>11ce6b7eb077409a9de322861e047d1b</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\1819a8df-85b5-441b-b306-4b6e78919a98.jpeg" highlight="19,147,50,53" />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>AIUtil("input", "Username").Type</Name>
+    <Description>aidemo</Description>
+    <StartTime>2020-06-08 06:57:11</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <Tooltip>AIUtil("input", "Username")</Tooltip>
+      <AIInfo>
+        <AIMatchScore>91.00</AIMatchScore>
+      </AIInfo>
+      <TestObject>
+        <Path>
+          <Object>
+            <Type>Device</Type>
+            <Name><![CDATA[[ Device ]]]></Name>
+          </Object>
+          <Object>
+            <Type>AIObject</Type>
+            <Name><![CDATA[AIUtil("input", "Username")]]></Name>
+          </Object>
+        </Path>
+        <Operation>Type</Operation>
+        <OperationData><![CDATA[aidemo]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[Username]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[class]]></Name>
+            <Value><![CDATA[input]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>11ce6b7eb077409a9de322861e047d1b</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\6af6960f-8667-4634-ace7-2bc6483d2b07.jpeg" highlight="26,254,324,30" />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>AIUtil("input", "Password").Type</Name>
+    <Description>AIdemo1</Description>
+    <StartTime>2020-06-08 06:57:23</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <Tooltip>AIUtil("input", "Password")</Tooltip>
+      <AIInfo>
+        <AIMatchScore>93.00</AIMatchScore>
+      </AIInfo>
+      <TestObject>
+        <Path>
+          <Object>
+            <Type>Device</Type>
+            <Name><![CDATA[[ Device ]]]></Name>
+          </Object>
+          <Object>
+            <Type>AIObject</Type>
+            <Name><![CDATA[AIUtil("input", "Password")]]></Name>
+          </Object>
+        </Path>
+        <Operation>Type</Operation>
+        <OperationData><![CDATA[AIdemo1]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[Password]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[class]]></Name>
+            <Value><![CDATA[input]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>11ce6b7eb077409a9de322861e047d1b</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\0ce94b06-19dd-41f8-9c58-a21c6028819a.jpeg" highlight="26,323,324,26" />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>AIUtil("button", "SIGN IN").Click</Name>
+    <Description />
+    <StartTime>2020-06-08 06:57:25</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <Tooltip>AIUtil("button", "SIGN IN")</Tooltip>
+      <AIInfo>
+        <AIMatchScore>93.00</AIMatchScore>
+      </AIInfo>
+      <TestObject>
+        <Path>
+          <Object>
+            <Type>Device</Type>
+            <Name><![CDATA[[ Device ]]]></Name>
+          </Object>
+          <Object>
+            <Type>AIObject</Type>
+            <Name><![CDATA[AIUtil("button", "SIGN IN")]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[SIGN IN]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[class]]></Name>
+            <Value><![CDATA[button]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>11ce6b7eb077409a9de322861e047d1b</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\821589b0-a97f-4fe3-be88-69ea35017c53.jpeg" highlight="22,456,331,51" />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>AIUtil("shopping_cart").Exist</Name>
+    <Description>No object in the context uniquely matches the description</Description>
+    <StartTime>2020-06-08 06:57:31</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <Tooltip>AIUtil("shopping_cart")</Tooltip>
+      <AIInfo>
+        <AIMatchScore>0.00</AIMatchScore>
+      </AIInfo>
+      <TestObject>
+        <Path>
+          <Object>
+            <Type>Device</Type>
+            <Name><![CDATA[[ Device ]]]></Name>
+          </Object>
+          <Object>
+            <Type>AIObject</Type>
+            <Name><![CDATA[AIUtil("shopping_cart")]]></Name>
+          </Object>
+        </Path>
+        <Operation>Exist</Operation>
+        <OperationData><![CDATA[No object in the context uniquely matches the description]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[class]]></Name>
+            <Value><![CDATA[shopping_cart]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>11ce6b7eb077409a9de322861e047d1b</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\98e67f98-3ebe-454b-bb34-91a358d4dd6e.jpeg" />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Stop Run</Name>
+    <Description>Run stopped by user.</Description>
+    <StartTime>2020-06-08 06:57:32</StartTime>
+    <Result>Information</Result>
+    <Extension>
+      <IconKey>3d3bcf112602450f82a758194fc61329</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\842210d4-18e0-4eb6-afd1-138d0600ea1b.jpeg" />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action 1</Name>
+    <Description />
+    <StartTime>2020-06-08 06:56:28</StartTime>
+    <Duration>64</Duration>
+    <Result>Passed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>ca81353efe7a465fa3a76ae901156b56</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action0</Name>
+    <Description />
+    <StartTime>2020-06-08 06:56:28</StartTime>
+    <Duration>64</Duration>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>1984ae2f443541fea675403266ef1eca</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Index>3</Index>
+    <TestedApplications />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Stop Run</Name>
+    <Description>Run stopped by user.</Description>
+    <StartTime>2020-06-08 06:57:32</StartTime>
+    <Result>Information</Result>
+    <Extension>
+      <IconKey>7087d2b9f6604b248ae0a45b10033a9d</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\1d48696d-773c-4061-9989-c7f5a938f439.jpeg" />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>AI Cross Demo</Name>
+    <ToolName>Micro Focus Unified Functional Testing</ToolName>
+    <ToolVersion>0</ToolVersion>
+    <ToolVersionStringLiteral>15.0.1</ToolVersionStringLiteral>
+    <Description />
+    <StartTime>2020-06-08 06:56:24</StartTime>
+    <Duration>68</Duration>
+    <Result>Passed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>a843277f6ad04909845726c1662a5432</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>-07:00:00</Timezone>
+      <Locale>English (United States)</Locale>
+      <User>demo</User>
+      <CpuInfo>Intel(R) Core(TM) i7-8850H CPU @ 2.60GHz</CpuInfo>
+      <NumberOfCores>4</NumberOfCores>
+      <TotalMemory>8191</TotalMemory>
+      <HostName>NIMBUSCLIENT</HostName>
+      <OSInfo>Windows 10</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xlsx" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res59</ResultName>
+    <RunStartTime>2020-06-08 06:56:24</RunStartTime>
+    <Timezone>-07:00:00</Timezone>
+    <OrchestrationToolName>Micro Focus Unified Functional Testing</OrchestrationToolName>
+    <OrchestrationToolVersion>0</OrchestrationToolVersion>
+    <OrchestrationToolVersionStringLiteral>15.0.1</OrchestrationToolVersionStringLiteral>
+  </GeneralInfo>
+</Results>
