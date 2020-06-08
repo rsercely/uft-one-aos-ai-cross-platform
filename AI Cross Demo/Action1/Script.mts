@@ -9,7 +9,7 @@
 '	3) Add a cleanup function to close down any opened environment
 '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 'Launching env
-Function LaunchEnvironnment
+Function LaunchEnvironment
 		Set dt=DataTable
 		Select Case 	dt.Value("Context")
 			Case "Browser"
@@ -18,17 +18,17 @@ Function LaunchEnvironnment
 					Browser("CreationTime:=0").Close 
 				Wend
 				SystemUtil.Run dt.Value("Browser") & ".exe" ,"","","",3
-				Set LaunchEnvironnment=Browser("CreationTime:=0")
-				LaunchEnvironnment.ClearCache
-				LaunchEnvironnment.Navigate dt.value("URL")
-				LaunchEnvironnment.Sync
+				Set LaunchEnvironment=Browser("CreationTime:=0")
+				LaunchEnvironment.ClearCache
+				LaunchEnvironment.Navigate dt.value("URL")
+				LaunchEnvironment.Sync
 				wait(2)
-				LaunchEnvironnment.Maximize
+				LaunchEnvironment.Maximize
 				
 			Case "Device"	
 				Set oDevice=Device("Class Name:=Device","ostype:=" & dt.value("ostype") ,"id:=" & dt.value("device_id"))
 				Set oApp=oDevice.App("Class Name:=App","identifier:=" & dt.value("app_identifier") ,"instrumented:=" & dt.value("app_instrumented"))		
-				Set	LaunchEnvironnment=oDevice
+				Set	LaunchEnvironment=oDevice
 '				oApp.Launch Install, Restart
 				oApp.Launch DoNotInstall, Restart
 				
@@ -111,7 +111,7 @@ Function Logout
 		
 End Function
 	
-	set oContext=LaunchEnvironnment
+	set oContext=LaunchEnvironment
 	AIUtil.SetContext oContext 	
 	Login
 	Logout
