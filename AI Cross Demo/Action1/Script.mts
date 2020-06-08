@@ -56,14 +56,12 @@ End Function
 	if  AIUtil("hamburger_menu").exist(0) then AIUtil("hamburger_menu").Click
 'Click the profile  icon
 '# Feature Spy with AI enhancements'
+	'AIUtil("profile").Highlight
 	AIUtil("profile").Click
 '# Feature AI Inspect on Desktop Browsers
 'Set 'aidemo' into 'username' field 
 	AIUtil("input", "Username").Type "aidemo"
-	'Firefox is throwing a warning that the password isn't secure, have to click again to get rid of the warning
-	If DataTable.Value("Browser") = "FIREFOX" Then
-		AIUtil("input", "Username").Click							
-	End If
+	'AIUtil("input", "Username").Click			'If not https, Firefox throws a warning.
 'Set 'AIdemo1' into 'password' field
 	AIUtil("input", "Password").Type "AIdemo1"
 'Click the login button
