@@ -3,10 +3,16 @@
 'Supported env: Desktop Chrome and Firefox, iOS, Android, and mobile web (15.0.1)
 '	This connects to demo.mobilecenter.io, you must put in your credentials into Tools | Options
 '	Make sure your desktop is set to 100% scaling.  Not 100% scaling can break the AI computer vision
+
+Function FutureEnhancements
 'Future enhancements:
 '	1) Add other business processes (e.g. product search, add to cart, clear cart, checkout)
 '	2) Add Edge as an environment
 '	3) Add a cleanup function to close down any opened environment
+'	4) Setup concurrent runs
+	
+End Function
+
 '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 'Launching env
 Function LaunchEnvironment
@@ -29,8 +35,8 @@ Function LaunchEnvironment
 				Set oDevice=Device("Class Name:=Device","ostype:=" & dt.value("ostype") ,"id:=" & dt.value("device_id"))
 				Set oApp=oDevice.App("Class Name:=App","identifier:=" & dt.value("app_identifier") ,"instrumented:=" & dt.value("app_instrumented"))		
 				Set	LaunchEnvironment=oDevice
-'				oApp.Launch Install, Restart
-				oApp.Launch DoNotInstall, Restart
+				oApp.Launch Install, Restart
+'				oApp.Launch DoNotInstall, Restart
 				
 				
 				'=================================================================================
