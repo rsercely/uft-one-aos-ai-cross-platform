@@ -8,8 +8,7 @@ Function FutureEnhancements
 'Future enhancements:
 '	1) Add other business processes (e.g. product search, add to cart, clear cart, checkout)
 '	2) Add Edge as an environment
-'	3) Add a cleanup function to close down any opened environment
-'	4) Setup concurrent runs
+'	3) Setup concurrent runs
 	
 End Function
 
