@@ -90,6 +90,9 @@ Function Login
 End Function
 
 Function Logout
+	Set dt=DataTable
+	Set oDevice=Device("Class Name:=Device","ostype:=" & dt.value("ostype") ,"id:=" & dt.value("device_id"))
+				
 	'========================================================================================================================
 	'	Logout
 	'# Feature AIUtil SDK Usage
@@ -115,6 +118,12 @@ Function Logout
 			End Select
 		End If
 		
+	If  AIUtil("hamburger_menu").exist(0) then 
+		oDevice.CloseViewer
+	Else
+		Browser("CreationTime:=0").Close
+	End  If
+	
 End Function
 	
 	set oContext=LaunchEnvironment
