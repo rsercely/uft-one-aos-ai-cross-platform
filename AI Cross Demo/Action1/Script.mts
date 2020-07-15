@@ -58,7 +58,8 @@ Function Login
 	'If mobile web, navigate to the URL
 		If DataTable.Value("app_identifier") = "MC.Browser" Then
 			AIUtil("text_box", "aboutzblank").Type "advantageonlineshopping.com/"
-			AIUtil.FindTextBlock("advantageonlineshopping.com").Click
+			'AIUtil.FindTextBlock("advantageonlineshopping.com").Click
+			AIUtil.FindTextBlock("advantageonlineshopping.com", micFromTop, 1).Click
 			AIUtil.FindTextBlock("SPEAKERS").Exist(10)
 		End If
 	

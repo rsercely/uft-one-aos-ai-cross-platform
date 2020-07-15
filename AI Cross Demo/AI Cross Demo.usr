@@ -35,23 +35,14 @@ ProductName=Micro Focus Unified Functional Testing
 Version=15.0.1
 
 [TulipAddins]
-AgGrid=
 AI=
 Database=
 File Content=
 Insight=
 Mobile=
-SAP NWBC Desktop=
-SAP=
-SAPUI5=
-SAPWDJ=
-SAPWebExt=
-Silverlight=
 Windows Applications=
 TEA=
-UIGrid=
 Web=
-WPF=
 XML=
 
 [ExtraFiles]
