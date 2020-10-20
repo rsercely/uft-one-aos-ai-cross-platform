@@ -53,6 +53,8 @@ Function LaunchEnvironment
 End Function
 
 Function Login
+	Dim rc
+	
 	'========================================================================================================================
 	'	Login
 	'If mobile web, navigate to the URL
@@ -60,7 +62,7 @@ Function Login
 			AIUtil("text_box", "aboutzblank").Type "advantageonlineshopping.com/"
 			'AIUtil.FindTextBlock("advantageonlineshopping.com").Click
 			AIUtil.FindTextBlock("advantageonlineshopping.com", micFromTop, 1).Click
-			AIUtil.FindTextBlock("SPEAKERS").Exist(10)
+			rc = AIUtil.FindTextBlock("SPEAKERS").Exist(10)
 		End If
 	
 	'Click the hamburger if it exists
@@ -82,9 +84,9 @@ Function Login
 	
 	'Wait for the shopping cart button to show, doesn't show on screen for mobile web, sync on SPEAKERS text instead for mobile web
 		If DataTable.Value("app_identifier") = "MC.Browser" Then
-			AIUtil.FindTextBlock("SPEAKERS").Exist(10)
+			rc = AIUtil.FindTextBlock("SPEAKERS").Exist(10)
 		Else
-			AIUtil("shopping_cart").Exist(10)
+			rc = AIUtil("shopping_cart").Exist(10)
 		End If
 	
 End Function
