@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+# SharpDevelop 4.1.3.0-UFT_14
+Project("") = "uftone-ai-aos-web-multiple-screen-zoom", "..\uftone-ai-aos-for-340\uftone-ai-aos-web-multiple-screen-zoom\Test.tsp", "0EB48F6A-4DC5-4F9C-93D4-0C31D9424ECF"
+	ProjectSection(ProjectMetadata) = HP.UFT.ProjectSystem.Dynamic.ProjectMetadata
+		PathInformation = C:\Users\demo\Documents\Unified Functional Testing\uftone-ai-aos-for-340\uftone-ai-aos-web-multiple-screen-zoom\Test.tsp
+		Keyword = QTP
+		OpenAsReadOnly = False
+	EndProjectSection
+EndProject
+Project("") = "AI Cross Demo", "AI Cross Demo\Test.tsp", "6CE18EB1-0DE0-4B17-84A5-6CE5AEDBC97C"
+	ProjectSection(ProjectMetadata) = HP.UFT.ProjectSystem.Dynamic.ProjectMetadata
+		PathInformation = C:\Users\demo\Documents\Unified Functional Testing\uft-one-aos-ai-cross-platform\AI Cross Demo\Test.tsp
+		Keyword = QTP
+		OpenAsReadOnly = False
+	EndProjectSection
+EndProject
+Project("") = "newMobile", "..\newMobile\Test.tsp", "4CCE24F7-E755-4C5B-89EF-9FC2BC2BFF0C"
+	ProjectSection(ProjectMetadata) = HP.UFT.ProjectSystem.Dynamic.ProjectMetadata
+		PathInformation = C:\Users\demo\Documents\Unified Functional Testing\newMobile\Test.tsp
+		Keyword = QTP
+		OpenAsReadOnly = False
+		BaselineId = 
+	EndProjectSection
+EndProject
+Project("") = "uftone-ai-aos-desktop-and-app", "..\uftone-ai-aos-for-340\uftone-ai-aos-desktop-and-app\Test.tsp", "2735595D-4BAC-46B2-A851-A1DA13D9F5AA"
+	ProjectSection(ProjectMetadata) = HP.UFT.ProjectSystem.Dynamic.ProjectMetadata
+		PathInformation = C:\Users\demo\Documents\Unified Functional Testing\uftone-ai-aos-for-340\uftone-ai-aos-desktop-and-app\Test.tsp
+		Keyword = QTP
+		OpenAsReadOnly = False
+		BaselineId = 
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		0EB48F6A-4DC5-4F9C-93D4-0C31D9424ECF.Debug|Any CPU.Build.0 = Debug|Any CPU
+		0EB48F6A-4DC5-4F9C-93D4-0C31D9424ECF.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		0EB48F6A-4DC5-4F9C-93D4-0C31D9424ECF.Release|Any CPU.Build.0 = Release|Any CPU
+		0EB48F6A-4DC5-4F9C-93D4-0C31D9424ECF.Release|Any CPU.ActiveCfg = Release|Any CPU
+		6CE18EB1-0DE0-4B17-84A5-6CE5AEDBC97C.Debug|Any CPU.Build.0 = Debug|Any CPU
+		6CE18EB1-0DE0-4B17-84A5-6CE5AEDBC97C.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		6CE18EB1-0DE0-4B17-84A5-6CE5AEDBC97C.Release|Any CPU.Build.0 = Release|Any CPU
+		6CE18EB1-0DE0-4B17-84A5-6CE5AEDBC97C.Release|Any CPU.ActiveCfg = Release|Any CPU
+		4CCE24F7-E755-4C5B-89EF-9FC2BC2BFF0C.Debug|Any CPU.Build.0 = Debug|Any CPU
+		4CCE24F7-E755-4C5B-89EF-9FC2BC2BFF0C.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		4CCE24F7-E755-4C5B-89EF-9FC2BC2BFF0C.Release|Any CPU.Build.0 = Release|Any CPU
+		4CCE24F7-E755-4C5B-89EF-9FC2BC2BFF0C.Release|Any CPU.ActiveCfg = Release|Any CPU
+		2735595D-4BAC-46B2-A851-A1DA13D9F5AA.Debug|Any CPU.Build.0 = Debug|Any CPU
+		2735595D-4BAC-46B2-A851-A1DA13D9F5AA.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		2735595D-4BAC-46B2-A851-A1DA13D9F5AA.Release|Any CPU.Build.0 = Release|Any CPU
+		2735595D-4BAC-46B2-A851-A1DA13D9F5AA.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+EndGlobal
